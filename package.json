@@ -1,0 +1,27 @@
+{
+  "name": "piduino-rest",
+  "version": "1.0.0",
+  "description": "REST service for raspberry pi/arduino hat IO",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src\\main\\server.js",
+    "prod": "node src\\main\\server.js",
+    "test": "nyc mocha --ui mocha-when-then"
+  },
+  "keywords": [
+    "REST",
+    "RaspberyPi",
+    "Arduino"
+  ],
+  "author": "Tim Koski",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "mocha-when-then": "^0.4.2",
+    "nodemon": "^1.14.6",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
