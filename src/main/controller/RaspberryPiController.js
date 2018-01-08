@@ -3,7 +3,7 @@
 var orchestrator = require('../orchestrator/RaspberryPiOrchestrator.js');
 
 var read_a_pin = function(req, res) {
-    res.json(orchestrator.readPin(req.data.pin));
+    res.json(orchestrator.readPin(req.params.pin));
 };
 
 module.exports = function(app) {

@@ -18,10 +18,13 @@
   "devDependencies": {
     "mocha": "^4.1.0",
     "mocha-when-then": "^0.4.2",
-    "nodemon": "^1.14.6",
     "nyc": "^11.4.1"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "epoll": "^1.0.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.8",
+    "nw-gyp": "^3.6.3",
+    "rpi-gpio": "^0.9.1"
   }
 }
